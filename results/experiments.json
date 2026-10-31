@@ -1,0 +1,48 @@
+{
+  "DATA": "synthetic address traces (no real program traces)",
+  "associativity_vs_miss_rate_strided": {
+    "trace_length": 400,
+    "miss_rate": {
+      "1": 1.0,
+      "2": 1.0,
+      "4": 1.0,
+      "8": 0.02,
+      "fully": 0.02
+    }
+  },
+  "miss_classification_direct_mapped_strided": {
+    "hits": 0,
+    "compulsory": 8,
+    "capacity": 0,
+    "conflict": 392
+  },
+  "size_vs_miss_rate_random": {
+    "1024": 0.96742,
+    "2048": 0.93506,
+    "4096": 0.87292,
+    "8192": 0.74874,
+    "16384": 0.50188,
+    "32768": 0.02048
+  },
+  "policy_loop_10_blocks_in_8": {
+    "LRU": 0.0,
+    "FIFO": 0.0,
+    "RANDOM": 0.604
+  },
+  "matrix_64x64_miss_rate": {
+    "row": 0.0625,
+    "col": 1.0
+  },
+  "two_level_amat_256x256_matrix": {
+    "row-major": {
+      "amat_cycles": 7.875,
+      "l1_miss_rate": 0.0625,
+      "l2_local_miss_rate": 1.0
+    },
+    "column-major": {
+      "amat_cycles": 111.0,
+      "l1_miss_rate": 1.0,
+      "l2_local_miss_rate": 1.0
+    }
+  }
+}
